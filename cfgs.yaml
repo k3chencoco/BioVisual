@@ -1,0 +1,33 @@
+#vgg16-5stage: K:/PXTing/test/data/vgg16-397923af.pth
+
+
+
+dataset:
+  NYUD-V2: C:\Users\USER\DATASET\NYUD
+  BSDS: C:\Users\USER\DATASET\BSDS500\HED-BSDS
+  BSDS-VOC: C:\Users\USER\DATASET\BSDS500
+  BIPED: C:\Users\USER\DATASET\BIPEDv2\BIPED
+  PASCAL-VOC12: C:\Users\USER\DATASET\BSDS500\PASCAL
+  RemoteSensing: C:\Users\USER\DATASET\RemoteSensing\Downstream_Datasets\SLSD
+  Anji: C:\Users\USER\DATASET\AnjiTea
+  Maqiao: C:\Users\USER\DATASET\Maqiao
+  OpenImage:  C:\Users\USER\DATASET\fiftyone\open-images-v6\train #C:\Users\USER\DATASET\fiftyone\open-images-v6\train
+
+# train 16 32 8 for nyud and PASCAL-Context 10 8 2 for bsds PASCAL12: 10 64 16
+batch_size: 24     #BSDS:1; RemoteSensing:1
+max_epoch: 20          #  BSDS 15 BIPED 10 ;NYUD 20
+decay_rate: 0.1
+decay_steps: 8 # cao:1  yuan 2
+
+# optimization Adam or SGD
+method: Adam
+lr: 1.0e-3   #  cao 1.0e-3 yuan 1.0e-2 CED 1.0e-5
+milestones: [5,10]  #  BSDS [7,13] BIPED  [5,10] ;NYUD [9,15]
+lr_steps: 10-16
+momentum: 0.9 #  CED 0.99
+weight_decay: 2.0e-4
+
+# save
+sava_epoch: 2
+
+save_name: _PVPUNET_ep7_lrd5.pth

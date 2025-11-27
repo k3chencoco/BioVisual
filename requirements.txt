@@ -1,0 +1,14 @@
+albumentations==0.5.2
+bunch==1.0.1
+loguru==0.5.3
+#matplotlib==3.3.2
+opencv_python>=4.4.0.46
+ruamel.base==1.0.0
+scikit_learn
+#segmentation
+timm
+tensorboard
+torchstat==0.0.7
+tqdm==4.61.1
+ttach==0.0.3
+yacs==0.1.8
