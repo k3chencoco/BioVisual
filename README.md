@@ -1,5 +1,5 @@
 # BioVisual
-Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scenes
+A Bio-Inspired Hierarchical Network for Contour Detection
 
 # Datasets
 We use the links in RCF Repository (really thanks for that).
