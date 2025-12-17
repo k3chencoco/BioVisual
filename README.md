@@ -1,6 +1,8 @@
 # BioVisual
 Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scenes
+
 ****
+
 # Code Guidance
 1. Install the libs in requirement.txt:
    
@@ -26,7 +28,9 @@ Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scen
    uncomment the dataset which you want to use in Line 42-46;
    
    start to test by <code>python test.py</code>.
+   
    ****
+   
 # Datasets
 
 We use the links in RCF Repository (really thanks for that).
@@ -50,12 +54,15 @@ SLSD is Here
 The matlab code used for evaluation in our experiments can be downloaded in [matlab code for evaluation](https://drive.google.com/file/d/16_aqTaeSiKPwCRMwdnvFXH7b7qYL_pKB/view?usp=sharing).
 
 The PR-curve code can be downloaded in [plot-pr-curves](https://github.com/MCG-NKU/plot-edge-pr-curves)
+
 ****
+
 # Examples of Results
-markdown
-![NYUD](https://github.com/k3chencoco/BioVisual/main/examples/img_5021.png)
-![NYUD](https://github.com/k3chencoco/BioVisual/main/examples/img_5021_res.png)
+<img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/img_5021.png" width="45%"><img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/img_5021_res.png" width="45%">
+
+
 ****
+
 # Reference
 
 When building our code, we referenced the repositories as follow:
