@@ -58,7 +58,14 @@ The PR-curve code can be downloaded in [plot-pr-curves](https://github.com/MCG-N
 ****
 
 # Examples of Results
+
+<img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/87015.jpg" width="45%"><img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/87015.png" width="45%">
+
 <img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/img_5021.png" width="45%"><img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/img_5021_res.png" width="45%">
+
+<img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/RGB_234.jpg" width="45%"><img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/RGB_234.png" width="45%">
+
+<img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/60002_1_32_662_org.png" width="45%"><img src="https://raw.githubusercontent.com/k3chencoco/BioVisual/main/examples/60002_1_32_662.png" width="45%">
 
 
 ****
