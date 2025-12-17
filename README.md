@@ -18,14 +18,14 @@ Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scen
    
    modify Line 36 to select different traing dataset;
    
-   start to train by <code>py train.py</code>.
+   start to train by <code>python train.py</code>.
 7. test.py:
    
    Modify Line 22-24, 29 according to /path/to/your/project;
    
    uncomment the dataset which you want to use in Line 42-46;
    
-   start to test by <code>py test.py</code>.
+   start to test by <code>python test.py</code>.
 # Datasets
 We use the links in RCF Repository (really thanks for that).
 The augmented BSDS500, PASCAL VOC, and NYUD datasets can be downloaded with:
