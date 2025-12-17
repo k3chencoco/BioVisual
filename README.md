@@ -1,6 +1,6 @@
 # BioVisual
 Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scenes
-
+****
 # Code Guidance
 1. Install the libs in requirement.txt:
    
@@ -26,7 +26,9 @@ Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scen
    uncomment the dataset which you want to use in Line 42-46;
    
    start to test by <code>python test.py</code>.
+   ****
 # Datasets
+
 We use the links in RCF Repository (really thanks for that).
 The augmented BSDS500, PASCAL VOC, and NYUD datasets can be downloaded with:
 
@@ -49,7 +51,12 @@ The matlab code used for evaluation in our experiments can be downloaded in [mat
 
 The PR-curve code can be downloaded in [plot-pr-curves](https://github.com/MCG-NKU/plot-edge-pr-curves)
 ****
+# Examples of Results
+markdown
+
+****
 # Reference
+
 When building our code, we referenced the repositories as follow:
 
 [DirectSAM-RS](https://github.com/StevenMsy/DirectSAM-RS)
