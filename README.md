@@ -1,6 +1,11 @@
 # BioVisual
 Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scenes
 
+# Guidance
+1. Install the libs in requirement.txt:
+   <code>cd /path/to/your/project<code>
+   <code>pip install -r /full/path/to/requirements.txt<code>
+2. 
 # Datasets
 We use the links in RCF Repository (really thanks for that).
 The augmented BSDS500, PASCAL VOC, and NYUD datasets can be downloaded with:
