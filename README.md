@@ -53,7 +53,8 @@ The PR-curve code can be downloaded in [plot-pr-curves](https://github.com/MCG-N
 ****
 # Examples of Results
 markdown
-
+![NYUD](https://github.com/k3chencoco/BioVisual/tree/main/examples/img_5021.png)
+![NYUD](https://github.com/k3chencoco/BioVisual/tree/main/examples/img_5021_res.png)
 ****
 # Reference
 
