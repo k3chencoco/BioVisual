@@ -6,14 +6,28 @@ Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scen
    
    <code>cd /path/to/your/project
    pip install -r /full/path/to/requirements.txt</code>
-3. 
+   
+2. Download and decompress the Datasets as the next Section mentioned:
+   <code>tar -xzvf HED-BSDS.tar.gz</code>
+
+3. Modify hyperparameters in cfgs.yaml.
+4. train.py:
+   
+   Modify Line 21-22 according to /path/to/your/project;
+   modify Line 36 to select different traing dataset;
+   start to train by <code>py train.py</code>.
+5. test.py:
+   
+   Modify Line 22-24, 29 according to /path/to/your/project;
+   uncomment the dataset which you want to use in Line 42-46;
+   start to test by <code>py test.py</code>.
 # Datasets
 We use the links in RCF Repository (really thanks for that).
 The augmented BSDS500, PASCAL VOC, and NYUD datasets can be downloaded with:
 
-    wget http://mftp.mmcheng.net/liuyun/rcf/data/HED-BSDS.tar.gz
+    <code>wget http://mftp.mmcheng.net/liuyun/rcf/data/HED-BSDS.tar.gz
     wget http://mftp.mmcheng.net/liuyun/rcf/data/PASCAL.tar.gz
-    wget http://mftp.mmcheng.net/liuyun/rcf/data/NYUD.tar.gz
+    wget http://mftp.mmcheng.net/liuyun/rcf/data/NYUD.tar.gz</code>
 BIPED Dataset is Here
 
     https://drive.google.com/drive/folders/1lZuvJxL4dvhVGgiITmZsjUJPBBrFI_bM
