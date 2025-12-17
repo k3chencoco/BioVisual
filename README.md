@@ -37,9 +37,10 @@ Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scen
 We use the links in RCF Repository (really thanks for that).
 The augmented BSDS500, PASCAL VOC, and NYUD datasets can be downloaded with:
 
-    <code>wget http://mftp.mmcheng.net/liuyun/rcf/data/HED-BSDS.tar.gz
+    wget http://mftp.mmcheng.net/liuyun/rcf/data/HED-BSDS.tar.gz
     wget http://mftp.mmcheng.net/liuyun/rcf/data/PASCAL.tar.gz
-    wget http://mftp.mmcheng.net/liuyun/rcf/data/NYUD.tar.gz</code>
+    wget http://mftp.mmcheng.net/liuyun/rcf/data/NYUD.tar.gz
+    
 BIPED Dataset is Here
 
     https://drive.google.com/drive/folders/1lZuvJxL4dvhVGgiITmZsjUJPBBrFI_bM
