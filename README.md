@@ -1,7 +1,7 @@
 # BioVisual
 Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scenes
 
-# Guidance
+# Code Guidance
 1. Install the libs in requirement.txt:
    
    <code>cd /path/to/your/project
@@ -46,6 +46,8 @@ SLSD is Here
 # Tools
 
 The matlab code used for evaluation in our experiments can be downloaded in [matlab code for evaluation](https://drive.google.com/file/d/16_aqTaeSiKPwCRMwdnvFXH7b7qYL_pKB/view?usp=sharing).
+
+The PR-curve code can be downloaded in [plot-pr-curves](https://github.com/MCG-NKU/plot-edge-pr-curves)
 ****
 # Reference
 When building our code, we referenced the repositories as follow:
