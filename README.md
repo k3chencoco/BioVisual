@@ -10,18 +10,19 @@ Hierarchical Bio-Inspired Network for Enhanced Contour Detection in Complex Scen
    pip install -r /full/path/to/requirements.txt</code>
    
 2. Download and decompress the Datasets as the next Section mentioned:
-3. 
+   
    <code>tar -xzvf HED-BSDS.tar.gz</code>
 
-4. Modify hyperparameters in cfgs.yaml.
-5. train.py:
+3. Modify hyperparameters in cfgs.yaml.
+   
+4. train.py:
    
    Modify Line 21-22 according to /path/to/your/project;
    
    modify Line 36 to select different traing dataset;
    
    start to train by <code>python train.py</code>.
-7. test.py:
+5. test.py:
    
    Modify Line 22-24, 29 according to /path/to/your/project;
    
